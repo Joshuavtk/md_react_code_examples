@@ -11,3 +11,9 @@
 * voer `npm install` uit in de hoofdfolder
 
 * start de server vanuit je terminal met `npm start`
+
+#### Bonuspunten:
+
+* je lijst met voorbeelden kunnen filteren
+
+* je voorbeelden onderverdelen in verschillende categorieën (JavaScript, PHP, frontend, development, etc.)
