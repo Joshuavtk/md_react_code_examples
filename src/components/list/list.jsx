@@ -6,7 +6,7 @@ class List extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            items : []
+            items: []
         };
         this.refresh();
     }
@@ -19,6 +19,9 @@ class List extends React.Component {
          *
          * uiteraard help ik met alle plezier. Dus roep me erbij als het niet lukt
          */
+        fetch("http://localhost:8081/")
+            .then(res => res.json())
+            .then(res => this.setState({ items: res }));
     }
 
     renderItem = (item, i) => (
